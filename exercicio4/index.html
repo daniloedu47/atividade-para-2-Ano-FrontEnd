@@ -12,6 +12,21 @@ Crie uma lista (<ul>) com 5 itens e use CSS para:
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
+<ul>
+  <li>hover – Aplica estilos quando o usuário passa o mouse sobre o elemento.</li>
+  <li>active – Aplica estilos enquanto o elemento está sendo ativado, como durante um clique.</li>
+  <li>first-child – Seleciona o primeiro filho de um elemento pai.</li>
+  <li>:last-child – Seleciona o último filho de um elemento pai.</li>
+  <li>visited – Aplica estilos a links que já foram visitados pelo usuário.</li>
+</ul>
+<style>
+    ul li:first-child {
+  font-weight: bold;
+}
 
+ul li:last-child {
+  font-style: italic;
+}
+</style>
 </body>
 </html>
